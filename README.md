@@ -1,6 +1,6 @@
 # observando - backend
 
-En este repositorio se encuentra el código fuente del backend del sitio [observando](observando.net) creado por Axel Marazzi.
+En este repositorio se encuentra el código fuente del backend del sitio [observando](https://observando.net) creado por Axel Marazzi.
 Hoy su única función es obtener la información desde el newsletter de Mailchimp y parsear la respuesta devolviendo un JSON que luego es consumido por el frontend para mostrar en tiempo real los último 10 newsletters evitando tener que actualizarlo manualmente cada vez que se publica uno nuevo. 
 
 ## Deploy utilizando Heroku

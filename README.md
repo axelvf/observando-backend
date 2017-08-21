@@ -1,3 +1,5 @@
+![PHP 7 ready](https://freelance.axelvf.com.ar/badges/php7-supported.svg)
+
 # observando - backend
 
 En este repositorio se encuentra el código fuente del backend del sitio [observando.net](https://observando.net) creado por Axel Marazzi.
@@ -26,6 +28,9 @@ o
 
 ## Autor
 Este backend fue creado de onda por [Axel Vasquez](https://axelvf.com.ar) como contribución al laburo que realiza mi tocayo semana a semana.
+
+## Agradecimientos
+[@valenzine](https://github.com/valenzine/observando-backend): Soporte sobre PHP 5. [Pull 1](https://github.com/axelvf/observando-backend/pull/1)
 
 ## FAQ
 Por consultas, reporte de errores o sugerencias podes [crear un issue](https://github.com/axelvf/observando-backend/issues)

@@ -12,7 +12,7 @@ foreach ($html->find('li') as $element) {
     foreach ($element->find('a') as $a) {
         $link = $a->href;
     }
-    $data[] = ["date" => "$date", "title" => "$title", "link" => "$link"];
+    $data[] = array("date" => "$date", "title" => "$title", "link" => "$link");
     if (++$i > 9)
         break;
 }

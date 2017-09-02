@@ -5,6 +5,17 @@
 En este repositorio se encuentra el código fuente del backend del sitio [observando.net](https://observando.net) creado por Axel Marazzi.
 Hoy su única función es obtener la información desde el newsletter de Mailchimp y parsear la respuesta devolviendo un JSON que luego es consumido por el frontend para mostrar en tiempo real los último 10 newsletters evitando tener que actualizarlo manualmente cada vez que se publica uno nuevo. 
 
+## Configuración
+Se debe editar el valor de la variable $mailchimp_campaign que se encuentra dentro del archivo mailchimp.php ubicado en la carpeta web:
+```php
+$mailchimp_campaign='http://us14.campaign-archive2.com/home/?u=d914367325f70121f44ffcafb&id=1d2d0d3d76';
+```
+### Opcional
+El valor de la variable $posts_limit se utiliza para filtrar la cantidad de post a mostrar en la respuesta. El predeterminado es 10.
+
+## Deploy manual
+Copie únicamente los archivos ubicados dentro de la carpeta web en su sitio web.
+
 ## Deploy utilizando Heroku
 
 Instale [Heroku Toolbelt](https://toolbelt.heroku.com/).

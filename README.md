@@ -43,5 +43,7 @@ Este backend fue creado de onda por [Axel Vasquez](https://axelvf.com.ar) como c
 ## Agradecimientos
 [@valenzine](https://github.com/valenzine/observando-backend): Soporte sobre PHP 5. [Pull 1](https://github.com/axelvf/observando-backend/pull/1)
 
+[@tatimonavalle](https://twitter.com/tatimonavalle): Utiliza este código dentro de su newsletter llamado [Elemental](http://elemental.email)
+
 ## FAQ
 Por consultas, reporte de errores o sugerencias podes [crear un issue](https://github.com/axelvf/observando-backend/issues)

@@ -10,7 +10,7 @@ include_once('dom_parser.php');
 $html = file_get_html($mailchimp_campaign);
 $i = 1;
 foreach ($html->find('li') as $element) {
-    $text = $element->find('text');
+    $text = explode("-", $element->plaintext);
     $date = trim(str_replace('-', '', $text[0]));
     $title = $text[1];
     foreach ($element->find('a') as $a) {
